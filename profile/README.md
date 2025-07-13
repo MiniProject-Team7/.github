@@ -1,21 +1,16 @@
-[![GOOHAM](./5.png)](http://localhost:3000/)
-
 
 # 1. Project Overview (프로젝트 개요)
 - 프로젝트 이름: GOOHAM
 - 프로젝트 설명: 유레카의 다양한 주제와 관심사를 바탕으로 팀원을 모집하고, 함께할 사람들을 손쉽게 찾을 수 있는 플랫폼
 
-# 2. Team Members (팀원 및 팀 소개)
-![GOOHAM](./6.png)
-
-# 3. Key Features (주요 기능)
-### 3-1. 회원 관리
+# 2. Key Features (주요 기능)
+### 2-1. 회원 관리
 - 회원 가입: 이메일, 비밀번호, 본명, 닉네임, 생년월일, 전화번호, 관심사를 입력 후 가입합니다.
 - 로그인: 이메일, 비밀번호를 입력하여 로그인합니다.
 - 프로필 관리: 닉네임, 관심사, 한 줄 소개 등을 수정합니다.
 - 비밀번호 재설정: 이메일 인증을 통해 비밀번호를 재설정합니다.
 - 회원 탈퇴: 비밀번호 인증을 통해 회원 데이터를 제거합니다.
-### 3-2. 게시글 관리
+### 2-2. 게시글 관리
 - 게시글 작성
   - 게시글 생성: 제목, 일정, 참여 인원, 장소, 관심사 등을 입력하여 게시글을 생성합니다.
   - 게시글 수정: 작성자가 게시글의 내용, 상태 등을 수정합니다.
@@ -24,17 +19,17 @@
   - 게시글 목록 조회: 게시글 확인 및 유형 별 필터를 적용하여 조회합니다.
   - 게시글 상세 조회: 특정 게시글의 상세 내용을 확인합니다.
 - 댓글 기능: 댓글 작성, 수정, 삭제 기능을 사용합니다.
-### 3-3. 모집 참여 관리
+### 2-3. 모집 참여 관리
 - 게시글 참여 신청/취소: 게시글에 참여 신청 및 취소를 합니다.
 - 신청 승인/거절: 작성자가 참여 신청을 승인 및 거절합니다.
 - 참여자 목록 조회: 게시글의 참여자 목록을 확인합니다.
 - 신청자 현재 상태 확인: 신청자의 현재 상태(대기, 승인, 거절)를 확인합니다.
-### 3-4. 개별 요청 (알림)
+### 2-4. 개별 요청 (알림)
 - 요청 전송: 게시글 작성자에게 별도의 요청 메시지를 전송합니다.
 - 요청 처리: 요청에 대해 작성자가 승인 및 거절을 합니다.
 - 댓글: 게시글에 댓글 추가 시 작성자에게 알림 메시지를 전송합니다.
 
-# 4. Tasks & Responsibilities (작업 및 역할 분담_이미지는 슬랙 개인 이미지로 변경할 예정?)
+# 4. Tasks & Responsibilities
 | 정다희 | ![A 이미지](./11.png) | ● 알림 관련 API 구현<br>● 알림 삭제 스케줄러 구현<br>● 참여 요청 내역 스케줄러 구현<br>● swagger 도입<br>● 게시글 관련 API 연동<br>● 댓글 관련 API 연동<br>● 게시글 검색 UI page 작성 |
 |:-----:|:-----:|:-----|
 | 김다슬 | ![B 이미지](./12.png) | ● 회원 가입 구현<br>● 로그인, 로그아웃 구현<br>● 회원 탈퇴 구현<br>● 프로필 조회, 수정 구현<br>● 비밀번호 찾기, 변경 구현<br>● 이메일 인증 구현<br>● JWT 토큰 사용 구현<br>● 로그인, 로그아웃 API 연동<br>● 마이페이지 API 연동<br>● 비밀번호 재설정 API 연동 |
@@ -43,36 +38,36 @@
 
 # 5. Technology Stack (기술 스택)
 ### 5.1 Language
-|  |  |
-|:-----:|:-----:|
-| TypeScript | <img src="./20.png" width="100"/> |
-| CSS | <img src="./21.png" width="100"/> |
-| JavaScript | <img src="./22.png" width="100"/> |
-| Java | <img src="./23.png" width="100"/> |
+|  | 
+|:-----:|
+| TypeScript |
+| CSS |
+| JavaScript |
+| Java |
 ### 5.2 Library_Frontend
 |  |  |  |
-|:-----:|:-----:|:-----:|
-| Next.js | <img src="./24.png" width="150"/> | 15.3.1 |
-| React | <img src="./25.png" width="150"/> | 19.0.0 |
-| Tailwind CSS | <img src="./26.png" width="150"/> | 4.1.5 |
-| SASS | <img src="./27.png" width="150"/> | 1.87.0 |
-| Zustand | <img src="./30.jpg" width="150"/> | 5.0.4 |
-| Axios | <img src="./29.png" width="150"/> | 1.9.0 |
-### 5.3 Library_Backend
-|  |  |  |
-|:-----:|:-----:|:-----:|
-| Spring Boot | <img src="./31.png" width="150"/> | 3.4.3 |
-| JPA | <img src="./32.png" width="150"/> | - |
-| MyBatis | <img src="./33.jpg" width="150"/> | 3.0.4 |
-| MySQL | <img src="./34.png" width="150"/> | - |
-| JWT | <img src="./35.png" width="150"/> | 0.11.5 |
-| AWS S3 | <img src="./36.png" width="150"/> | 1.12.678 |
-### 5.4 Cooperation
-|  |  |
 |:-----:|:-----:|
-| GitHub | <img src="./39.png" width="100"/> |
-| Notion | <img src="./38.png" width="100"/> |
-| Slack | <img src="./37.png" width="100"/> |
+| Next.js | 15.3.1 |
+| React |  19.0.0 |
+| Tailwind CSS | 4.1.5 |
+| SASS |  1.87.0 |
+| Zustand |  5.0.4 |
+| Axios |  1.9.0 |
+### 5.3 Library_Backend
+|  |  | 
+|:-----:|:-----:|
+| Spring Boot | 3.4.3 |
+| JPA | - |
+| MyBatis | 3.0.4 |
+| MySQL | - |
+| JWT |  0.11.5 |
+| AWS S3 |  1.12.678 |
+### 5.4 Cooperation
+|  | 
+|:-----:|
+| GitHub | 
+| Notion | 
+| Slack |
 ### 5.5 Flow
 <img src="./40.png" width="800"/>
 
@@ -236,11 +231,7 @@ GooHam-Frontend
 | !breaking change | 커다란 API 변경의 경우 |
 | style | 코드 포맷 변경, 세미 콜론 누락, 코드 수정이 없는 경우 |
 | comment | 필요한 주석 추가 및 변경 |
-### 7.2 ERD (Entity Relationship Diagram)
-<img src="./3.png" width="800"/>
 
-### 7.3 System Flow
-<img src="./41.png" width="800"/>
 
 # 8. API 명세서
 API 명세서: https://www.notion.so/API-1b5d20939aae80368dacdfa8537d7718?pvs=25
